@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+  background-image: url('../img/bg1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+header .nav-link {
+  color: #fff;
+}
+
+header .nav-link:hover {
+  color: #ccc;
+}
+
+header .btn-outline-primary {
+  color: #fff;
+  border-color: #fff;
+}
+
+header .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+
+.container {
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  padding: 50px 0;
+}
+
+.btn-outline-info {
+  color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+}
+
+.carousel-inner {
+  height: 500px;
+  width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto; 
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  object-fit: center;
+  width: 110%;
+  height: 110%;
+}
+
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .nav-link {
+  color: rgb(218, 208, 208);
+}
+
+footer .nav-link:hover {
+  color: #ffffff;
+}
